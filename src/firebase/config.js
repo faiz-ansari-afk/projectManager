@@ -11,14 +11,7 @@ import { getStorage } from "firebase/storage";
 //     messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
 //     appId: process.env.REACT_APP_FIREBASE_APP_ID
 //   };
-const firebaseConfig = {
-  apiKey: "AIzaSyB0QTD7X8j__k0NR5oxSWYWa3iqDwsV6_8",
-  authDomain: "projectmanagement-afk.firebaseapp.com",
-  projectId: "projectmanagement-afk",
-  storageBucket: "projectmanagement-afk.appspot.com",
-  messagingSenderId: "784650190547",
-  appId: "1:784650190547:web:771b3877a22bc00ef01e26"
-};
+
 
 //init firebase
 const app = initializeApp(firebaseConfig);
