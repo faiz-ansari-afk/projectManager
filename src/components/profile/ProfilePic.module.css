@@ -1,0 +1,20 @@
+.para{
+    margin-top:10px;
+    display:inline-block;
+}
+.auth-form {
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 40px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    background: #fff;
+  }
+  .error {
+    color: red;
+    background: pink;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 10px 0;
+  }
